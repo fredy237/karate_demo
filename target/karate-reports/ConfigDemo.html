@@ -39,8 +39,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -50,12 +50,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-02-10 02:38:48 soir</div>
+    <div>2023-02-21 04:26:00 soir</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1.1:21]"><span>[1.1:21]</span> <span>Create User pass</span></a>
           </div>
           <div class="nav-item passed">
@@ -84,8 +84,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>1050</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2990</span>
             </div>
           </div>
           <div class="step-row">
@@ -117,7 +117,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.6">14:38:46.077 &lt;&lt; lock released, cached callSingle: classpath:/Login.feature
+  <div class="preformatted" data-parent="1.6">16:25:56.371 &lt;&lt; lock released, cached callSingle: classpath:/Login.feature
 </div>   
 
   <div>
@@ -128,7 +128,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">Login</div>
       </div>
-      <div class="time-cell passed">1770</div>
+      <div class="time-cell passed">8669</div>
     </div>
     <div>
       <div><div>
@@ -153,7 +153,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.6.0.call.0.6">14:38:44.270 &gt;&gt; lock acquired, begin callSingle: classpath:/Login.feature
+  <div class="preformatted" data-parent="1.6.0.call.0.6">16:25:47.663 &gt;&gt; lock acquired, begin callSingle: classpath:/Login.feature
 </div>   
 
   
@@ -229,7 +229,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def requestBody = read(&quot;./data/login.json&quot;)</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -313,7 +313,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1766</div>
+    <div class="time-cell passed">8665</div>
   </div>
 
    
@@ -322,7 +322,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.6.0.call.0.15">14:38:44.705 request:
+  <div class="preformatted" data-parent="1.6.0.call.0.15">16:25:48.113 request:
 1 &gt; POST https://pesa-backend-production.up.railway.app/api/v1/auth/login
 1 &gt; Content-type: application/json; charset=UTF-8
 1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzgwYTdiZTU2MTY1Y2E2NGI0YTZiMiIsImlhdCI6MTY3NTgxNjY3MywiZXhwIjoxNjc1OTAzMDczfQ.2T4M5pyvxl4JAu0KlHFN7BPkIHXb-dmHUKy5t5gxoOQ
@@ -331,19 +331,19 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.14.1)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;email&quot;:&quot;gabitendong@gmail.com&quot;,&quot;password&quot;:123456}
+{&quot;email&quot;:&quot;gabitendong@gmail.com&quot;,&quot;password&quot;:123457}
 
-14:38:46.075 response time in milliseconds: 1369
+16:25:56.369 response time in milliseconds: 8254
 1 &lt; 201
 1 &lt; x-powered-by: Express
 1 &lt; access-control-allow-origin: *
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; content-length: 530
-1 &lt; etag: W/&quot;212-jDrbcZ0zCO7hOq69I/KHaI4gLIQ&quot;
-1 &lt; date: Fri, 10 Feb 2023 13:38:45 GMT
-1 &lt; x-envoy-upstream-service-time: 339
+1 &lt; content-length: 524
+1 &lt; etag: W/&quot;20c-5mW8e9IiXOpJQHjUoHjZBbNPf24&quot;
+1 &lt; date: Tue, 21 Feb 2023 15:25:56 GMT
+1 &lt; x-envoy-upstream-service-time: 313
 1 &lt; server: railway
-{&quot;user&quot;:{&quot;isCreatedByAdmin&quot;:false,&quot;_id&quot;:&quot;63c80a7be56165ca64b4a6b2&quot;,&quot;first_name&quot;:&quot;Tendong&quot;,&quot;last_name&quot;:&quot;Gabriel&quot;,&quot;email&quot;:&quot;gabitendong@gmail.com&quot;,&quot;birth_day&quot;:&quot;2000-12-12T00:00:00.000Z&quot;,&quot;password&quot;:&quot;$2b$10$QrR1AiMhbKXkh2igXjyMYeG130WQ8PN/zd.Hhpbpf.7JmQVkVgiD2&quot;,&quot;phone&quot;:&quot;655757902&quot;,&quot;role&quot;:[&quot;SuperAdmin&quot;],&quot;isActive&quot;:true,&quot;isEmailConfirmed&quot;:true,&quot;__v&quot;:0},&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzgwYTdiZTU2MTY1Y2E2NGI0YTZiMiIsImlhdCI6MTY3NjAzNjMyNSwiZXhwIjoxNjc2MTIyNzI1fQ.9Dncd6e1_EFR9LNJbSU2faR_dywxUt5OHCPXDpjPAAM&quot;}
+{&quot;user&quot;:{&quot;_id&quot;:&quot;63eca75c21e6713f8b9f54bf&quot;,&quot;first_name&quot;:&quot;Gabriel&quot;,&quot;last_name&quot;:&quot;Tendong&quot;,&quot;email&quot;:&quot;gabitendong@gmail.com&quot;,&quot;birth_day&quot;:&quot;2003-02-15T00:00:00.000Z&quot;,&quot;password&quot;:&quot;$2b$10$P8AGzDh6FQ0R0DYi9sG3VeVJmVsLBVFFg85OUiFmxBbLOtmNBo2ki&quot;,&quot;phone&quot;:&quot;655757902&quot;,&quot;role&quot;:[&quot;User&quot;],&quot;isActive&quot;:true,&quot;isEmailConfirmed&quot;:true,&quot;isCreatedByAdmin&quot;:false,&quot;__v&quot;:0},&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWNhNzVjMjFlNjcxM2Y4YjlmNTRiZiIsImlhdCI6MTY3Njk5MzE1NiwiZXhwIjoxNjc3MDc5NTU2fQ.pfc6v2eApvMuNcBJ0F91oIPLDhdwvipYNo-8BvdUDAM&quot;}
 
 </div>   
 
@@ -397,7 +397,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>header Content-type = &#39;application/json&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -518,7 +518,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.14">14:38:46.088 [print] Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzgwYTdiZTU2MTY1Y2E2NGI0YTZiMiIsImlhdCI6MTY3NjAzNjMyNSwiZXhwIjoxNjc2MTIyNzI1fQ.9Dncd6e1_EFR9LNJbSU2faR_dywxUt5OHCPXDpjPAAM 
+  <div class="preformatted" data-parent="1.14">16:25:56.382 [print] Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWNhNzVjMjFlNjcxM2Y4YjlmNTRiZiIsImlhdCI6MTY3Njk5MzE1NiwiZXhwIjoxNjc3MDc5NTU2fQ.pfc6v2eApvMuNcBJ0F91oIPLDhdwvipYNo-8BvdUDAM 
 </div>   
 
   
@@ -547,7 +547,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.15">14:38:46.090 [print] [
+  <div class="preformatted" data-parent="1.15">16:25:56.383 [print] [
   {
     &quot;first_name&quot;: &quot;F&quot;,
     &quot;last_name&quot;: &quot;fafniru&quot;,
@@ -610,7 +610,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1042</div>
+    <div class="time-cell passed">2976</div>
   </div>
 
    
@@ -619,10 +619,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.17">14:38:46.091 request:
+  <div class="preformatted" data-parent="1.17">16:25:56.385 request:
 1 &gt; POST https://pesa-backend-production.up.railway.app/api/v1/user/register
 1 &gt; Content-type: application/json; charset=UTF-8
-1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzgwYTdiZTU2MTY1Y2E2NGI0YTZiMiIsImlhdCI6MTY3NjAzNjMyNSwiZXhwIjoxNjc2MTIyNzI1fQ.9Dncd6e1_EFR9LNJbSU2faR_dywxUt5OHCPXDpjPAAM
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWNhNzVjMjFlNjcxM2Y4YjlmNTRiZiIsImlhdCI6MTY3Njk5MzE1NiwiZXhwIjoxNjc3MDc5NTU2fQ.pfc6v2eApvMuNcBJ0F91oIPLDhdwvipYNo-8BvdUDAM
 1 &gt; Content-Length: 200
 1 &gt; Host: pesa-backend-production.up.railway.app
 1 &gt; Connection: Keep-Alive
@@ -630,17 +630,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;first_name&quot;:&quot;F&quot;,&quot;last_name&quot;:&quot;fafniru&quot;,&quot;email&quot;:&quot;fafnifafnir@mail.com&quot;,&quot;phone&quot;:&quot;696074199&#39;#string&#39;&quot;,&quot;birth_day&quot;:&quot;1970-01-12&quot;,&quot;password&quot;:362011,&quot;role&quot;:[&quot;Admin&quot;],&quot;isActive&quot;:true,&quot;isEmailConfirmed&quot;:true}
 
-14:38:47.133 response time in milliseconds: 1041
-1 &lt; 400
+16:25:59.356 response time in milliseconds: 2971
+1 &lt; 201
 1 &lt; x-powered-by: Express
 1 &lt; access-control-allow-origin: *
 1 &lt; content-type: application/json; charset=utf-8
-1 &lt; content-length: 60
-1 &lt; etag: W/&quot;3c-sOjAHxUfop+VJJ441DfKxdsX/wo&quot;
-1 &lt; date: Fri, 10 Feb 2023 13:38:46 GMT
-1 &lt; x-envoy-upstream-service-time: 257
+1 &lt; content-length: 527
+1 &lt; etag: W/&quot;20f-9Yf4KzIyDeVmWYjcT2iD1ZWVtEI&quot;
+1 &lt; date: Tue, 21 Feb 2023 15:25:59 GMT
+1 &lt; x-envoy-upstream-service-time: 2204
 1 &lt; server: railway
-{&quot;statusCode&quot;:400,&quot;message&quot;:&quot;Cet utilisateur existe déjà&quot;}
+{&quot;user&quot;:{&quot;_id&quot;:&quot;63e0bc33ecfed8f71bb7b5d4&quot;,&quot;first_name&quot;:&quot;F&quot;,&quot;last_name&quot;:&quot;fafniru&quot;,&quot;email&quot;:&quot;fafnifafnir@mail.com&quot;,&quot;birth_day&quot;:&quot;1970-01-12T00:00:00.000Z&quot;,&quot;password&quot;:&quot;$2b$10$hf8cQ5nV99QCmaATpBzNAOalKJsswj.//3t3W9xMyl1qw5ufIjN9K&quot;,&quot;phone&quot;:&quot;696074199&#39;#string&#39;&quot;,&quot;role&quot;:[&quot;Admin&quot;],&quot;isActive&quot;:true,&quot;isEmailConfirmed&quot;:true,&quot;isCreatedByAdmin&quot;:false,&quot;__v&quot;:0},&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTBiYzMzZWNmZWQ4ZjcxYmI3YjVkNCIsImlhdCI6MTY3Njk5MzE1NywiZXhwIjoxNjc3MDc5NTU3fQ.3ACSIh1Esmi3fD3h7WztWDwKjHOycjBIMTMWvsipj7w&quot;}
 
 </div>   
 
@@ -655,13 +655,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="1.18">
-      <div class="step-ref failed">18</div>
+      <div class="step-ref passed">18</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 201</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -670,12 +670,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="1.18">14:38:47.134 classpath:ConfigDemo.feature:18
-Then status 201
-status code was: 400, expected: 201, response time in milliseconds: 1041, url: https://pesa-backend-production.up.railway.app/api/v1/user/register, response: 
-{&quot;statusCode&quot;:400,&quot;message&quot;:&quot;Cet utilisateur existe déjà&quot;}
-classpath:ConfigDemo.feature:18
-</div>   
+     
 
   
 
@@ -688,13 +683,13 @@ classpath:ConfigDemo.feature:18
 
   <div class="step-row">
     <div class="step-container" id="1.19">
-      <div class="step-ref skipped">19</div>
+      <div class="step-ref passed">19</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>print response.message</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">8</div>
   </div>
 
    
@@ -703,7 +698,8 @@ classpath:ConfigDemo.feature:18
 
   
 
-     
+  <div class="preformatted" data-parent="1.19">16:25:59.367 [print] null 
+</div>   
 
   
 
@@ -723,7 +719,7 @@ classpath:ConfigDemo.feature:18
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1054</span>
+              <span>ms:</span>&nbsp;<span>1031</span>
             </div>
           </div>
           <div class="step-row">
@@ -895,7 +891,7 @@ classpath:ConfigDemo.feature:18
 
   
 
-  <div class="preformatted" data-parent="1.25">14:38:47.154 [print] Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzgwYTdiZTU2MTY1Y2E2NGI0YTZiMiIsImlhdCI6MTY3NjAzNjMyNSwiZXhwIjoxNjc2MTIyNzI1fQ.9Dncd6e1_EFR9LNJbSU2faR_dywxUt5OHCPXDpjPAAM 
+  <div class="preformatted" data-parent="1.25">16:25:59.382 [print] Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWNhNzVjMjFlNjcxM2Y4YjlmNTRiZiIsImlhdCI6MTY3Njk5MzE1NiwiZXhwIjoxNjc3MDc5NTU2fQ.pfc6v2eApvMuNcBJ0F91oIPLDhdwvipYNo-8BvdUDAM 
 </div>   
 
   
@@ -924,7 +920,7 @@ classpath:ConfigDemo.feature:18
 
   
 
-  <div class="preformatted" data-parent="1.26">14:38:47.155 [print] [
+  <div class="preformatted" data-parent="1.26">16:25:59.382 [print] [
   {
     &quot;first_name&quot;: &quot;F&quot;,
     &quot;last_name&quot;: &quot;fafniru&quot;,
@@ -987,7 +983,7 @@ classpath:ConfigDemo.feature:18
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1048</div>
+    <div class="time-cell passed">1025</div>
   </div>
 
    
@@ -996,10 +992,10 @@ classpath:ConfigDemo.feature:18
 
   
 
-  <div class="preformatted" data-parent="1.28">14:38:47.156 request:
+  <div class="preformatted" data-parent="1.28">16:25:59.384 request:
 1 &gt; POST https://pesa-backend-production.up.railway.app/api/v1/user/register
 1 &gt; Content-type: application/json; charset=UTF-8
-1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYzgwYTdiZTU2MTY1Y2E2NGI0YTZiMiIsImlhdCI6MTY3NjAzNjMyNSwiZXhwIjoxNjc2MTIyNzI1fQ.9Dncd6e1_EFR9LNJbSU2faR_dywxUt5OHCPXDpjPAAM
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZWNhNzVjMjFlNjcxM2Y4YjlmNTRiZiIsImlhdCI6MTY3Njk5MzE1NiwiZXhwIjoxNjc3MDc5NTU2fQ.pfc6v2eApvMuNcBJ0F91oIPLDhdwvipYNo-8BvdUDAM
 1 &gt; Content-Length: 200
 1 &gt; Host: pesa-backend-production.up.railway.app
 1 &gt; Connection: Keep-Alive
@@ -1007,15 +1003,15 @@ classpath:ConfigDemo.feature:18
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;first_name&quot;:&quot;F&quot;,&quot;last_name&quot;:&quot;fafniru&quot;,&quot;email&quot;:&quot;fafnifafnir@mail.com&quot;,&quot;phone&quot;:&quot;696074199&#39;#string&#39;&quot;,&quot;birth_day&quot;:&quot;1970-01-12&quot;,&quot;password&quot;:362011,&quot;role&quot;:[&quot;Admin&quot;],&quot;isActive&quot;:true,&quot;isEmailConfirmed&quot;:true}
 
-14:38:48.203 response time in milliseconds: 1047
+16:26:00.408 response time in milliseconds: 1023
 1 &lt; 400
 1 &lt; x-powered-by: Express
 1 &lt; access-control-allow-origin: *
 1 &lt; content-type: application/json; charset=utf-8
 1 &lt; content-length: 60
 1 &lt; etag: W/&quot;3c-sOjAHxUfop+VJJ441DfKxdsX/wo&quot;
-1 &lt; date: Fri, 10 Feb 2023 13:38:47 GMT
-1 &lt; x-envoy-upstream-service-time: 257
+1 &lt; date: Tue, 21 Feb 2023 15:26:00 GMT
+1 &lt; x-envoy-upstream-service-time: 238
 1 &lt; server: railway
 {&quot;statusCode&quot;:400,&quot;message&quot;:&quot;Cet utilisateur existe déjà&quot;}
 

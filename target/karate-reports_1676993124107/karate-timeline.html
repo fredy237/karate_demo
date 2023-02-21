@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"ConfigDemo[1.1:21]","start":1676992707615,"end":1676992709359,"title":"ConfigDemo[1.1:21] 16:18:27.615-16:18:29.359 Create User pass","className":"failed"},{"id":2,"group":1,"content":"ConfigDemo[2.1:32]","start":1676992709378,"end":1676992709387,"title":"ConfigDemo[2.1:32] 16:18:29.378-16:18:29.387 Create User non pass","className":"failed"},{"id":3,"group":1,"content":"Login[1:12]","start":1676992710122,"end":1676992710129,"title":"Login[1:12] 16:18:30.122-16:18:30.129 get user list","className":"failed"},{"id":4,"group":1,"content":"ModifyUser[1.1:22]","start":1676992710205,"end":1676992710210,"title":"ModifyUser[1.1:22] 16:18:30.205-16:18:30.210 Update User pass","className":"failed"},{"id":5,"group":1,"content":"UserList[1:11]","start":1676992710272,"end":1676992710275,"title":"UserList[1:11] 16:18:30.272-16:18:30.275 get user list","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
