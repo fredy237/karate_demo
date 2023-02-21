@@ -1,0 +1,11 @@
+{
+  "first_name": "Tcheuguen",
+  "last_name": "fafniru",
+  "email": "fredy@mail.com",
+  "phone": "696074199",
+  "birth_day": "19990501",
+  "password": 362010,
+  "role": ["Admin"],
+  "isActive": true,
+  "isEmailConfirmed": true
+}

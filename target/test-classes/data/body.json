@@ -1,0 +1,17 @@
+[
+  {
+
+    "first_name": "F",
+    "last_name": "fafniru",
+    "email": "fafnifafnir@mail.com",
+    "birth_day": "1970-01-12",
+    "password": 362011,
+    "phone": "696074199",
+    "role": [
+      "Admin"
+    ],
+    "isActive": true,
+    "isEmailConfirmed": true
+  }
+]
+
